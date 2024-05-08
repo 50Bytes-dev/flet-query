@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flet-query"
+version = "0.1.0"
+description = "Flet Query is an attempt to recreate React Query on Flet"
+authors = ["50bytes.dev <50bytes.dev@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+packages = [{ include = "flet_query", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flet = "^0.22.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
